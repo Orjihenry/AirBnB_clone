@@ -23,12 +23,12 @@
     opacity: 0.9;
 }
 
-.locations {
+.filters .locations {
     border-right: solid 1px #DDDDDD;
 }
 
-.locations,
-.amenities {
+.filters .locations,
+.filters .amenities {
     text-align: left;
     height: 100%;
     width: 25%;
@@ -62,8 +62,8 @@
     z-index: 1;
 }
 
-.locations:hover .popover,
-.amenities:hover .popover {
+.filters .locations:hover .popover,
+.filters .amenities:hover .popover {
     display: block;
 }
 
