@@ -53,11 +53,13 @@
 }
 
 .popover {
+    position: relative;
     background-color: #FAFAFA;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
     padding-bottom: 17px;
     display: none;
+    z-index: 1;
 }
 
 .locations:hover .popover,
